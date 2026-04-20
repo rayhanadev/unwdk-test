@@ -1,7 +1,7 @@
 import { Hono } from "hono";
 import { serve } from "unwdk";
-import { unwdk } from "./lib/workflows/client";
-import { functions } from "./lib/workflows/functions";
+import { unwdk } from "./lib/workflows/client.js";
+import { functions } from "./lib/workflows/functions.js";
 
 const workflowHandler = serve({ functions });
 

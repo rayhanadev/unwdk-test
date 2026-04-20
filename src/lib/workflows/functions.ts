@@ -1,4 +1,4 @@
-import { unwdk, userSignup } from "./client";
+import { unwdk, userSignup } from "./client.js";
 
 export const sendWelcome = unwdk.step("sendWelcome", async (email: string) => {
   console.log(`[sendWelcome] would email ${email}`);
